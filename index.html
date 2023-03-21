@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB</title>
+</head>
+<body>
+    <h1>INDEXED-DB</h1>
+    <button class="get-cars-btn">Get add cars</button> <br> <br>
+    <form class="car-form">
+        <input type="text" name="company" id="car-company" placeholder="Car Company" required> <br>
+        <input type="text" name="color" id="car-color" placeholder="Car Color" required> <br>
+        <button type="submit">Add Car</button>
+    </form>
+    <div class="cars-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>S. no.</th>
+                    <th>Company</th>
+                    <th>Color</th>
+                </tr>
+                <tbody id="cars-table-body">
+                    <!-- <tr>
+                        <td>01</td>
+                        <td>asd</td>
+                        <td>qwe</td>
+                    </tr> -->
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    <script src="js/indexedDB.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+</html>
